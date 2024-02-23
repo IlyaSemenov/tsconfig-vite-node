@@ -1,0 +1,31 @@
+{
+  "name": "tsconfig-vite-node",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "A base TSConfig for Node apps developed with vite-node and/or built with vite.",
+  "author": "Ilya Semenov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IlyaSemenov/tsconfig-vite-node"
+  },
+  "keywords": [
+    "tsconfig",
+    "vite",
+    "vite-node"
+  ],
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "lint": "eslint --fix .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@changesets/cli": "^2.27.1",
+    "eslint": "^8.56.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2"
+  }
+}

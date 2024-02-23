@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Vite Note",
+
+  "compilerOptions": {
+    // Always use ESNext (meaning whatever the current Node interpreter supports).
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "module": "ESNext",
+
+    // Allow relative imports without having to specify file extensions.
+    "moduleResolution": "Bundler",
+
+    // Generic reasonable Node settings, copy/pasted from @tsconfig/node20.
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}
