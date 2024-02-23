@@ -13,6 +13,11 @@
 
     // Generic reasonable Node settings, copy/pasted from @tsconfig/node20.
     "strict": true,
+
+    // Never need to emit anything with Vite.
+    "noEmit": true,
+
+    // Generic reasonable Node settings, copy/pasted from @tsconfig/node20.
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
