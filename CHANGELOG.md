@@ -1,5 +1,11 @@
 # tsconfig-vite-node
 
+## 1.1.1
+
+### Patch Changes
+
+- 355b9b6: Expose tsconfig.json under "main" field for compatibility with tsup.
+
 ## 1.1.0
 
 ### Minor Changes
