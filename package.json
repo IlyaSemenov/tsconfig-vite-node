@@ -14,6 +14,7 @@
     "vite",
     "vite-node"
   ],
+  "main": "tsconfig.json",
   "files": [
     "tsconfig.json"
   ],
