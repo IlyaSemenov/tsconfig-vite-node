@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Vite Note",
+  "display": "Vite Node",
 
   "compilerOptions": {
     // Always use ESNext (meaning whatever the current Node interpreter supports).
