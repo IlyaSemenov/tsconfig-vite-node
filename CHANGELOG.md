@@ -1,5 +1,11 @@
 # tsconfig-vite-node
 
+## 1.1.2
+
+### Patch Changes
+
+- 8a9283c: Fix typo.
+
 ## 1.1.1
 
 ### Patch Changes
