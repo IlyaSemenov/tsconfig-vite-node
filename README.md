@@ -1,6 +1,12 @@
 # tsconfig-vite-node
 
-A base TSConfig for Node apps developed with `vite-node` and/or built with `vite`.
+An opinionated TSConfig for Node.js applications developed with `vite-node` and/or built with `vite`.
+
+Highlights:
+
+- All targets are set to `ESNext` (meaning whatever the current Node.js interpreter supports).
+- `moduleResolution` is set to `"Bundler"` (allows imports without file extensions).
+- `strict` and `noUncheckedIndexedAccess` are enabled by default.
 
 ## Install
 
@@ -29,4 +35,4 @@ In `package.json`:
 }
 ```
 
-_TODO: document building with vite._
+_TODO: Document building with Vite._

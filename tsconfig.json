@@ -11,8 +11,9 @@
     // Allow relative imports without having to specify file extensions.
     "moduleResolution": "Bundler",
 
-    // Generic reasonable Node settings, copy/pasted from @tsconfig/node20.
+    // Modern strictness setup.
     "strict": true,
+    "noUncheckedIndexedAccess": true,
 
     // Never need to emit anything with Vite.
     "noEmit": true,
