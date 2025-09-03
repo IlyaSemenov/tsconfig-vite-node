@@ -1,5 +1,11 @@
 # tsconfig-vite-node
 
+## 1.2.0
+
+### Minor Changes
+
+- 29250e3: Enable `noUncheckedIndexedAccess` by default.
+
 ## 1.1.2
 
 ### Patch Changes
