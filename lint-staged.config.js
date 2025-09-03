@@ -1,3 +1,3 @@
 export default {
-  '*.js': 'eslint --fix',
+  "*.{cjs,js,ts,json,md,yaml,toml}": "eslint --fix",
 }

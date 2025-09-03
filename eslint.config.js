@@ -1,3 +1,5 @@
-import config from '@antfu/eslint-config'
+// @ts-check
 
-export default config()
+import { defineConfig } from "@ilyasemenov/eslint-config"
+
+export default defineConfig()
